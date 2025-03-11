@@ -6,29 +6,29 @@
 #include <iostream>
 using namespace std;
 
-class YinYong
+class Quoto
 {
     public:
-      YinYong();
-      ~YinYong();
+       Quoto();
+      ~Quoto();
     public:
       int *n = new int(10);
       int *&B_n = n ;
 };
 
-YinYong::YinYong()
+Quoto::Quoto()
 {
     cout << *B_n <<endl;
 }
 
-YinYong::~YinYong()
+Quoto::~Quoto()
 {
   delete n;
 }
 
 int main()
 {
-  YinYong YY;
+  Quoto YY;
   cout << *YY.n <<endl;
 
   *YY.B_n = 100; 

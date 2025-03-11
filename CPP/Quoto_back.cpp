@@ -1,27 +1,27 @@
 #include <iostream>
 using namespace std;
 
-class YinYong
+class Quoto
 {
   public:
-    YinYong();
-    ~YinYong();
+    Quoto();
+    ~Quoto();
   public:
     int& test(); 
     int varibal;
 };
 
-YinYong::YinYong()
+Quoto::Quoto()
 {
 
 }
 
-YinYong::~YinYong()
+Quoto::~Quoto()
 {
 
 }
 
-int& YinYong::test()
+int& Quoto::test()
 {
   this->varibal = 10;
   return this->varibal;
@@ -29,7 +29,7 @@ int& YinYong::test()
 
 int main()
 {
-  YinYong Y;
+  Quoto Y;
   int &i = Y.test();
 
   cout << i <<endl;
