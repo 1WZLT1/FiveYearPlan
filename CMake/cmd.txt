@@ -1,0 +1,19 @@
+CMakeLists.txt
+cmake_minimum_required()
+template:
+cmake_minimun_required(version 版本号)
+
+project()
+template:
+project(name)
+
+addexecutable(app src......) 
+tempalte 
+addexecutable(.exename  1.c;2.c;3.c)
+
+cmake 跳转到对应文件夹下
+
+基本流程就是
+编写上面三条指令
+cmake -G "MinGW Makefiles"
+mingw32-Make
