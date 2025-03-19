@@ -1,3 +1,5 @@
 cmake_minimum_required(VERSION 3.10)
 project(CMAKE)
-add_executable(run main.cpp variable/variable.cpp)
+set(def main.cpp;variable/variable.cpp)
+set(EXECUTABLE_OUTPUT_PATH run)
+add_executable(run ${def})

@@ -1,0 +1,3 @@
+C:/Users/Dell/Desktop/LT/FiveYearPlan/CMake/CMAKE/CMakeFiles/run.dir
+C:/Users/Dell/Desktop/LT/FiveYearPlan/CMake/CMAKE/CMakeFiles/edit_cache.dir
+C:/Users/Dell/Desktop/LT/FiveYearPlan/CMake/CMAKE/CMakeFiles/rebuild_cache.dir
