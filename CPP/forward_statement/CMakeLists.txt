@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.10)
+project(forward_statement)
+aux_source_directory(${PROJECT_SOURCE_DIR} SRC)
+add_executable(run ${SRC})
+set(EXECUTABLE_OUTPUT_PATH ${CMAKE_SOURCE_DIR}/build/run)
