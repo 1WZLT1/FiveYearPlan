@@ -1,8 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/run.dir/main.cpp.obj"
   "CMakeFiles/run.dir/main.cpp.obj.d"
-  "CMakeFiles/run.dir/variable/variable.cpp.obj"
-  "CMakeFiles/run.dir/variable/variable.cpp.obj.d"
   "run/librun.dll.a"
   "run/run.exe"
   "run/run.exe.manifest"

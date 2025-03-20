@@ -5,5 +5,5 @@ using namespace std;
 int main()
 {
    person_n::person_c person;
-   person.age_set(11);
+   person.age_set(15);
 }

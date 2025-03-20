@@ -152,30 +152,6 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\run.dir\build.make CMakeFiles/run.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-variable/variable.obj: variable/variable.cpp.obj
-.PHONY : variable/variable.obj
-
-# target to build an object file
-variable/variable.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\run.dir\build.make CMakeFiles/run.dir/variable/variable.cpp.obj
-.PHONY : variable/variable.cpp.obj
-
-variable/variable.i: variable/variable.cpp.i
-.PHONY : variable/variable.i
-
-# target to preprocess a source file
-variable/variable.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\run.dir\build.make CMakeFiles/run.dir/variable/variable.cpp.i
-.PHONY : variable/variable.cpp.i
-
-variable/variable.s: variable/variable.cpp.s
-.PHONY : variable/variable.s
-
-# target to generate assembly for a file
-variable/variable.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\run.dir\build.make CMakeFiles/run.dir/variable/variable.cpp.s
-.PHONY : variable/variable.cpp.s
-
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -188,9 +164,6 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
-	@echo ... variable/variable.obj
-	@echo ... variable/variable.i
-	@echo ... variable/variable.s
 .PHONY : help
 
 
