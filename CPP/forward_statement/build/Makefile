@@ -128,53 +128,53 @@ run/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\run.dir\build.make CMakeFiles/run.dir/build
 .PHONY : run/fast
 
-forward_statement_main.obj: forward_statement_main.cpp.obj
-.PHONY : forward_statement_main.obj
+src/forward_statement_main.obj: src/forward_statement_main.cpp.obj
+.PHONY : src/forward_statement_main.obj
 
 # target to build an object file
-forward_statement_main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\run.dir\build.make CMakeFiles/run.dir/forward_statement_main.cpp.obj
-.PHONY : forward_statement_main.cpp.obj
+src/forward_statement_main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run.dir\build.make CMakeFiles/run.dir/src/forward_statement_main.cpp.obj
+.PHONY : src/forward_statement_main.cpp.obj
 
-forward_statement_main.i: forward_statement_main.cpp.i
-.PHONY : forward_statement_main.i
+src/forward_statement_main.i: src/forward_statement_main.cpp.i
+.PHONY : src/forward_statement_main.i
 
 # target to preprocess a source file
-forward_statement_main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\run.dir\build.make CMakeFiles/run.dir/forward_statement_main.cpp.i
-.PHONY : forward_statement_main.cpp.i
+src/forward_statement_main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run.dir\build.make CMakeFiles/run.dir/src/forward_statement_main.cpp.i
+.PHONY : src/forward_statement_main.cpp.i
 
-forward_statement_main.s: forward_statement_main.cpp.s
-.PHONY : forward_statement_main.s
+src/forward_statement_main.s: src/forward_statement_main.cpp.s
+.PHONY : src/forward_statement_main.s
 
 # target to generate assembly for a file
-forward_statement_main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\run.dir\build.make CMakeFiles/run.dir/forward_statement_main.cpp.s
-.PHONY : forward_statement_main.cpp.s
+src/forward_statement_main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run.dir\build.make CMakeFiles/run.dir/src/forward_statement_main.cpp.s
+.PHONY : src/forward_statement_main.cpp.s
 
-forward_statement_son.obj: forward_statement_son.cpp.obj
-.PHONY : forward_statement_son.obj
+src/forward_statement_son.obj: src/forward_statement_son.cpp.obj
+.PHONY : src/forward_statement_son.obj
 
 # target to build an object file
-forward_statement_son.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\run.dir\build.make CMakeFiles/run.dir/forward_statement_son.cpp.obj
-.PHONY : forward_statement_son.cpp.obj
+src/forward_statement_son.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run.dir\build.make CMakeFiles/run.dir/src/forward_statement_son.cpp.obj
+.PHONY : src/forward_statement_son.cpp.obj
 
-forward_statement_son.i: forward_statement_son.cpp.i
-.PHONY : forward_statement_son.i
+src/forward_statement_son.i: src/forward_statement_son.cpp.i
+.PHONY : src/forward_statement_son.i
 
 # target to preprocess a source file
-forward_statement_son.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\run.dir\build.make CMakeFiles/run.dir/forward_statement_son.cpp.i
-.PHONY : forward_statement_son.cpp.i
+src/forward_statement_son.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run.dir\build.make CMakeFiles/run.dir/src/forward_statement_son.cpp.i
+.PHONY : src/forward_statement_son.cpp.i
 
-forward_statement_son.s: forward_statement_son.cpp.s
-.PHONY : forward_statement_son.s
+src/forward_statement_son.s: src/forward_statement_son.cpp.s
+.PHONY : src/forward_statement_son.s
 
 # target to generate assembly for a file
-forward_statement_son.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\run.dir\build.make CMakeFiles/run.dir/forward_statement_son.cpp.s
-.PHONY : forward_statement_son.cpp.s
+src/forward_statement_son.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run.dir\build.make CMakeFiles/run.dir/src/forward_statement_son.cpp.s
+.PHONY : src/forward_statement_son.cpp.s
 
 # Help Target
 help:
@@ -185,12 +185,12 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... run
-	@echo ... forward_statement_main.obj
-	@echo ... forward_statement_main.i
-	@echo ... forward_statement_main.s
-	@echo ... forward_statement_son.obj
-	@echo ... forward_statement_son.i
-	@echo ... forward_statement_son.s
+	@echo ... src/forward_statement_main.obj
+	@echo ... src/forward_statement_main.i
+	@echo ... src/forward_statement_main.s
+	@echo ... src/forward_statement_son.obj
+	@echo ... src/forward_statement_son.i
+	@echo ... src/forward_statement_son.s
 .PHONY : help
 
 

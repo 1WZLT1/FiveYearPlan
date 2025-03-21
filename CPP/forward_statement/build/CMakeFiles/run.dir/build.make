@@ -71,44 +71,46 @@ include CMakeFiles/run.dir/flags.make
 CMakeFiles/run.dir/codegen:
 .PHONY : CMakeFiles/run.dir/codegen
 
-CMakeFiles/run.dir/forward_statement_main.cpp.obj: CMakeFiles/run.dir/flags.make
-CMakeFiles/run.dir/forward_statement_main.cpp.obj: C:/Users/Dell/Desktop/LT/FiveYearPlan/CPP/forward_statement/forward_statement_main.cpp
-CMakeFiles/run.dir/forward_statement_main.cpp.obj: CMakeFiles/run.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Dell\Desktop\LT\FiveYearPlan\CPP\forward_statement\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/run.dir/forward_statement_main.cpp.obj"
-	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/run.dir/forward_statement_main.cpp.obj -MF CMakeFiles\run.dir\forward_statement_main.cpp.obj.d -o CMakeFiles\run.dir\forward_statement_main.cpp.obj -c C:\Users\Dell\Desktop\LT\FiveYearPlan\CPP\forward_statement\forward_statement_main.cpp
+CMakeFiles/run.dir/src/forward_statement_main.cpp.obj: CMakeFiles/run.dir/flags.make
+CMakeFiles/run.dir/src/forward_statement_main.cpp.obj: CMakeFiles/run.dir/includes_CXX.rsp
+CMakeFiles/run.dir/src/forward_statement_main.cpp.obj: C:/Users/Dell/Desktop/LT/FiveYearPlan/CPP/forward_statement/src/forward_statement_main.cpp
+CMakeFiles/run.dir/src/forward_statement_main.cpp.obj: CMakeFiles/run.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Dell\Desktop\LT\FiveYearPlan\CPP\forward_statement\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/run.dir/src/forward_statement_main.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/run.dir/src/forward_statement_main.cpp.obj -MF CMakeFiles\run.dir\src\forward_statement_main.cpp.obj.d -o CMakeFiles\run.dir\src\forward_statement_main.cpp.obj -c C:\Users\Dell\Desktop\LT\FiveYearPlan\CPP\forward_statement\src\forward_statement_main.cpp
 
-CMakeFiles/run.dir/forward_statement_main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/run.dir/forward_statement_main.cpp.i"
-	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Dell\Desktop\LT\FiveYearPlan\CPP\forward_statement\forward_statement_main.cpp > CMakeFiles\run.dir\forward_statement_main.cpp.i
+CMakeFiles/run.dir/src/forward_statement_main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/run.dir/src/forward_statement_main.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Dell\Desktop\LT\FiveYearPlan\CPP\forward_statement\src\forward_statement_main.cpp > CMakeFiles\run.dir\src\forward_statement_main.cpp.i
 
-CMakeFiles/run.dir/forward_statement_main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/run.dir/forward_statement_main.cpp.s"
-	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Dell\Desktop\LT\FiveYearPlan\CPP\forward_statement\forward_statement_main.cpp -o CMakeFiles\run.dir\forward_statement_main.cpp.s
+CMakeFiles/run.dir/src/forward_statement_main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/run.dir/src/forward_statement_main.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Dell\Desktop\LT\FiveYearPlan\CPP\forward_statement\src\forward_statement_main.cpp -o CMakeFiles\run.dir\src\forward_statement_main.cpp.s
 
-CMakeFiles/run.dir/forward_statement_son.cpp.obj: CMakeFiles/run.dir/flags.make
-CMakeFiles/run.dir/forward_statement_son.cpp.obj: C:/Users/Dell/Desktop/LT/FiveYearPlan/CPP/forward_statement/forward_statement_son.cpp
-CMakeFiles/run.dir/forward_statement_son.cpp.obj: CMakeFiles/run.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Dell\Desktop\LT\FiveYearPlan\CPP\forward_statement\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/run.dir/forward_statement_son.cpp.obj"
-	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/run.dir/forward_statement_son.cpp.obj -MF CMakeFiles\run.dir\forward_statement_son.cpp.obj.d -o CMakeFiles\run.dir\forward_statement_son.cpp.obj -c C:\Users\Dell\Desktop\LT\FiveYearPlan\CPP\forward_statement\forward_statement_son.cpp
+CMakeFiles/run.dir/src/forward_statement_son.cpp.obj: CMakeFiles/run.dir/flags.make
+CMakeFiles/run.dir/src/forward_statement_son.cpp.obj: CMakeFiles/run.dir/includes_CXX.rsp
+CMakeFiles/run.dir/src/forward_statement_son.cpp.obj: C:/Users/Dell/Desktop/LT/FiveYearPlan/CPP/forward_statement/src/forward_statement_son.cpp
+CMakeFiles/run.dir/src/forward_statement_son.cpp.obj: CMakeFiles/run.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Dell\Desktop\LT\FiveYearPlan\CPP\forward_statement\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/run.dir/src/forward_statement_son.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/run.dir/src/forward_statement_son.cpp.obj -MF CMakeFiles\run.dir\src\forward_statement_son.cpp.obj.d -o CMakeFiles\run.dir\src\forward_statement_son.cpp.obj -c C:\Users\Dell\Desktop\LT\FiveYearPlan\CPP\forward_statement\src\forward_statement_son.cpp
 
-CMakeFiles/run.dir/forward_statement_son.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/run.dir/forward_statement_son.cpp.i"
-	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Dell\Desktop\LT\FiveYearPlan\CPP\forward_statement\forward_statement_son.cpp > CMakeFiles\run.dir\forward_statement_son.cpp.i
+CMakeFiles/run.dir/src/forward_statement_son.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/run.dir/src/forward_statement_son.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Dell\Desktop\LT\FiveYearPlan\CPP\forward_statement\src\forward_statement_son.cpp > CMakeFiles\run.dir\src\forward_statement_son.cpp.i
 
-CMakeFiles/run.dir/forward_statement_son.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/run.dir/forward_statement_son.cpp.s"
-	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Dell\Desktop\LT\FiveYearPlan\CPP\forward_statement\forward_statement_son.cpp -o CMakeFiles\run.dir\forward_statement_son.cpp.s
+CMakeFiles/run.dir/src/forward_statement_son.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/run.dir/src/forward_statement_son.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Dell\Desktop\LT\FiveYearPlan\CPP\forward_statement\src\forward_statement_son.cpp -o CMakeFiles\run.dir\src\forward_statement_son.cpp.s
 
 # Object files for target run
 run_OBJECTS = \
-"CMakeFiles/run.dir/forward_statement_main.cpp.obj" \
-"CMakeFiles/run.dir/forward_statement_son.cpp.obj"
+"CMakeFiles/run.dir/src/forward_statement_main.cpp.obj" \
+"CMakeFiles/run.dir/src/forward_statement_son.cpp.obj"
 
 # External object files for target run
 run_EXTERNAL_OBJECTS =
 
-run/run.exe: CMakeFiles/run.dir/forward_statement_main.cpp.obj
-run/run.exe: CMakeFiles/run.dir/forward_statement_son.cpp.obj
+run/run.exe: CMakeFiles/run.dir/src/forward_statement_main.cpp.obj
+run/run.exe: CMakeFiles/run.dir/src/forward_statement_son.cpp.obj
 run/run.exe: CMakeFiles/run.dir/build.make
 run/run.exe: CMakeFiles/run.dir/linkLibs.rsp
 run/run.exe: CMakeFiles/run.dir/objects1.rsp

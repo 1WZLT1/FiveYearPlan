@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/run.dir/forward_statement_main.cpp.obj"
-  "CMakeFiles/run.dir/forward_statement_main.cpp.obj.d"
-  "CMakeFiles/run.dir/forward_statement_son.cpp.obj"
-  "CMakeFiles/run.dir/forward_statement_son.cpp.obj.d"
+  "CMakeFiles/run.dir/src/forward_statement_main.cpp.obj"
+  "CMakeFiles/run.dir/src/forward_statement_main.cpp.obj.d"
+  "CMakeFiles/run.dir/src/forward_statement_son.cpp.obj"
+  "CMakeFiles/run.dir/src/forward_statement_son.cpp.obj.d"
   "run/librun.dll.a"
   "run/run.exe"
   "run/run.exe.manifest"

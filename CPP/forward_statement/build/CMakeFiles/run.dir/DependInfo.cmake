@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/Dell/Desktop/LT/FiveYearPlan/CPP/forward_statement/forward_statement_main.cpp" "CMakeFiles/run.dir/forward_statement_main.cpp.obj" "gcc" "CMakeFiles/run.dir/forward_statement_main.cpp.obj.d"
-  "C:/Users/Dell/Desktop/LT/FiveYearPlan/CPP/forward_statement/forward_statement_son.cpp" "CMakeFiles/run.dir/forward_statement_son.cpp.obj" "gcc" "CMakeFiles/run.dir/forward_statement_son.cpp.obj.d"
+  "C:/Users/Dell/Desktop/LT/FiveYearPlan/CPP/forward_statement/src/forward_statement_main.cpp" "CMakeFiles/run.dir/src/forward_statement_main.cpp.obj" "gcc" "CMakeFiles/run.dir/src/forward_statement_main.cpp.obj.d"
+  "C:/Users/Dell/Desktop/LT/FiveYearPlan/CPP/forward_statement/src/forward_statement_son.cpp" "CMakeFiles/run.dir/src/forward_statement_son.cpp.obj" "gcc" "CMakeFiles/run.dir/src/forward_statement_son.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.
